@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 2rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.navright {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+nav span {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 0 1rem;
+  color: #0056b3;
+}
+
+nav .logo{
+    transition: all 0.3s ease;
+}
+
+nav .logo:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 1px 5px rgb(197, 196, 196);
+    cursor: pointer;
+}
+
+.navright a {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.navright a:hover {
+  font-weight: 600;
+  color: #0056b3;
+  border-bottom: 3px solid #0056b3;
+  transform: scale(1.05);
+}
+
+.username {
+  background-color: #0056b3;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.username:hover {
+  background-color: #007bff;
+  transform: scale(1.05);
+}
+
+.username p {
+  font-weight: 800;
+  color: white;
+}
+
+/* Hero Section */
+
+.hero {
+  max-height: 100vh;
+  padding: 3rem 7% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+img{
+    max-width: 500px;
+    transition: all 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.left h2 {
+  font-size: 4rem;
+}
+
+.left .title{
+    font-size: 4.2rem;
+    color: #0056b3;
+}
+
+.left p{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.left button{
+    margin-top: 2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.left button:hover{
+    transform: scale(1.1);
+    background-color: #007bff;
+}
